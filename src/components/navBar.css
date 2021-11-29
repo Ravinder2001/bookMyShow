@@ -14,7 +14,7 @@
 #city{
     float: left;
 	margin-top: 40px;
-	margin-left: 500px;
+	margin-left: 300px;
 	font-size: 17px;
     color: white;
 }
@@ -28,4 +28,11 @@
     background-color: red;
     border: none;
     border-radius: 5px;
+}
+#boo{
+    float: left;
+    margin-top: 40px;
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
 }
