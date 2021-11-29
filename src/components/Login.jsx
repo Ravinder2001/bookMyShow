@@ -40,7 +40,7 @@ function Login() {
 				<div>
 					<input type='password' placeholder='Password' />
 				</div>
-				<Link to='/dash'>
+				<Link to='/dashboard'>
 					<button type='submit'>Submit</button>
 				</Link>
 			</form>
