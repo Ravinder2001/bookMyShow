@@ -37,11 +37,13 @@ function Login() {
 						onChange={handle}
 					/>
 				</div>
-				<div>
+				<div style={{ margin: "10px" }}>
 					<input type='password' placeholder='Password' />
 				</div>
 				<Link to='/dashboard'>
-					<button type='submit'>Submit</button>
+					<button style={{ margin: "10px" }} type='submit'>
+						Submit
+					</button>
 				</Link>
 			</form>
 		</div>

@@ -1,6 +1,6 @@
 /** @format */
 import { useState } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 function Details() {
 	var datas = JSON.parse(localStorage.getItem("data"));
 	console.log(datas);
@@ -29,7 +29,9 @@ function Details() {
 				and wrong! Who will win this `Antim` fight?
 			</div>
 			{datas ? (
-				<button>Download Ticket</button>
+				<Link to='/qr'>
+					<button>Download Ticket</button>
+				</Link>
 			) : (
 				<div>
 					<button
