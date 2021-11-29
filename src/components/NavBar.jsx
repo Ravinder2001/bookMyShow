@@ -11,9 +11,11 @@ function Navbar() {
 						width='175px'
 						style={{ float: "left" }}
 					/>
-					<div style={{ float: "left", marginTop: "50px" }}>
-						<input type='text' placeholder='search Movie' />
+					<div style={{ float: "left", marginTop: "40px", marginLeft: "20px" }}>
+						<input type='text' placeholder='Search Movie' id='input' />
 					</div>
+					<div id='city'>City</div>
+					<button id='login'>Login</button>
 				</div>
 			</div>
 		</div>

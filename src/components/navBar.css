@@ -5,3 +5,27 @@
     margin-top: 5px;
     
 }
+#input{
+    width: 400px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+}
+#city{
+    float: left;
+	margin-top: 40px;
+	margin-left: 500px;
+	font-size: 17px;
+    color: white;
+}
+#login{
+    float: left;
+	margin-top: 40px;
+    width: 70px;
+	margin-left: 50px;
+	font-size: 17px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}

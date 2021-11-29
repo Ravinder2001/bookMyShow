@@ -2,7 +2,7 @@
 
 function Login() {
 	return (
-		<div>
+		<div style={{ clear: "both" }}>
 			<form action=''>
 				<input type='text' placeholder='Email' />
 				<input type='password' placeholder='Password' />
